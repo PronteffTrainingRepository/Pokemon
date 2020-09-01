@@ -3,13 +3,8 @@
     "name": "Pokemon",
     "slug": "Pokemon",
     "version": "1.0.0",
-    "orientation": "portrait",
+    // "orientation": "portrait",
     "icon": "./assets/poco.png",
-    "splash": {
-      "image": "./assets/poco.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -19,6 +14,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "1.0.0",
+    "android": {
+      "package": "com.sravanreddyvudem.Pokemon"
     }
   }
 }
